@@ -10,7 +10,7 @@ if ((yourMoney - cost) >= 0) {
         "Muzey va ko’ngilochar joylar uchun - 120 yevro;" + `<br>` +
         "Hozirda kurs : " + `<br>` +
         "$1 = 11000.34 so’m" + `<br>` +
-        "1 yevro = 12354.03 so’m" + `<br>`)
+        "1 yevro = 12354.03 so’m" + `<br><br>`)
     document.write(`Sizning mablag'ingiz : ${yourMoney} so'm va ${yourMoney - cost} so'm ortiqcha pulingiz bor\n` + `<br><br>`);
     document.write(`Oq yo'l ${firstName} ✈️✈️`);
 } else {
@@ -19,7 +19,7 @@ if ((yourMoney - cost) >= 0) {
         "Muzey va ko’ngilochar joylar uchun - 120 yevro;" + `<br>` +
         "Hozirda kurs : " + `<br>` +
         "$1 = 11000.34 so’m" + `<br>` +
-        "1 yevro = 12354.03 so’m" + `<br>`)
+        "1 yevro = 12354.03 so’m" + `<br><br>`)
     document.write(`Sizning mablag'ingiz : ${yourMoney} so'm va ${Math.abs(yourMoney - cost)} so'm yetmaydi\n` + `<br><br>`);
     document.write(`${firstName}, ozgina sabr qilish kerak bo’lar ekan 😔😔`);
 
