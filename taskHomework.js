@@ -14,6 +14,12 @@ if ((yourMoney - cost) >= 0) {
     document.write(`Sizning mablag'ingiz : ${yourMoney} so'm va ${yourMoney - cost} so'm ortiqcha pulingiz bor\n` + `<br><br>`);
     document.write(`Oq yo'l ${firstName} ✈️✈️`);
 } else {
+    document.write(`Borish-kelish samolyot bileti - $500;
+  Mehmonxona to’lovi (to’liq safar davomiyligi uchun) - $250;
+  Muzey va ko’ngilochar joylar uchun - 120 yevro;
+  Hozirda kurs : 
+  $1 = 11000.34 so’m
+  1 yevro = 12354.03 so’m`)
     document.write(`Sizning mablag'ingiz : ${yourMoney} so'm va ${Math.abs(yourMoney - cost)} so'm yetmaydi\n` + `<br><br>`);
     document.write(`${firstName}, ozgina sabr qilish kerak bo’lar ekan 😔😔`);
 
